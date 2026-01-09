@@ -1,0 +1,258 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* first-navbar */
+
+.first-navbar {
+    display: none;
+}
+
+/* second navbar */
+.second-navbar {
+    justify-content: space-between;
+
+}
+
+.pro-a {
+    font-size: 0.6rem;
+    padding: 12px;
+}
+
+.btn1 {
+    font-size: 0.6rem;
+}
+
+.second-navbar li:nth-child(2),
+.second-navbar li:nth-child(3),
+.second-navbar li:nth-child(4),
+.second-navbar li:nth-child(5) {
+    display: none;
+}
+
+/* third navbar */
+.leftside-navbar div:first-child {
+    display: none;
+}
+
+.rightside-navbar li {
+    display: none;
+}
+
+.btn2 {
+    width: 150px;
+}
+
+/* banner-img */
+.banner-img {
+    max-width: 250px;
+    max-height: 80px;
+
+}
+
+/* first section */
+.colm {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-column {
+    text-align: center;
+}
+
+.left-column h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.left-column p {
+    text-align: center;
+    padding: 10px;
+}
+
+#industry-job {
+    flex-direction: column;
+}
+
+.arfatower-students {
+    max-width: 150px;
+    max-height: 280px;
+}
+
+/* second section */
+.section-2 {
+    flex-direction: column;
+}
+
+.boxes-parent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-boxes1,
+.section2-boxes2 {
+    border: none;
+}
+
+/* section 3 */
+
+.section3-header {
+    padding: 10px;
+    width: auto;
+}
+
+.flx-O {
+    flex-wrap: wrap;
+}
+
+.flx {
+    flex-wrap: wrap;
+
+}
+
+/* section 4 */
+
+.section4-header {
+    padding: 10px;
+    width: auto;
+}
+
+/* card section */
+
+.card-flx {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 230px;
+    height: auto;
+}
+
+/* section 6 */
+.section6-header {
+    padding: 10px;
+    width: auto;
+}
+
+/* section 6 boxes */
+
+.specifications {
+
+    flex-wrap: wrap;
+}
+
+.specifications-rows {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.specifications-boxes {
+    width: 180px;
+}
+
+/* section 7 */
+.section7 {
+    flex-direction: column;
+
+}
+
+.boxes-column {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-image img {
+    max-width: 220px;
+    max-height: 100px;
+}
+
+.small-boxes {
+    width: 200px;
+
+}
+
+/* section 8 */
+
+.section8-header {
+    width: auto;
+}
+
+.inner-box {
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* section 9 */
+
+.section9-box {
+    width: auto;
+}
+
+.attributes-boxes {
+    flex-wrap: wrap;
+}
+
+.saf-boxes-flx {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.affiliation-img {
+    max-width: 200px;
+    max-height: 100px;
+}
+
+/* section 10 */
+
+.campuses-row-flx {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campus-boxes1 {
+    width: 200px;
+}
+
+.campus-boxes {
+    width: 200px;
+}
+
+/* section 11 */
+.cities-row-flx {
+    flex-direction: column;
+
+}
+
+/* footer */
+.top-portion {
+    flex-direction: column;
+}
+
+.lists {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bottom-line {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.last-flx {
+    flex-direction: column;
+}

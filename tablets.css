@@ -1,0 +1,128 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* first navbar */
+
+.first-navbar {
+    padding: 20px;
+}
+
+/* second navbar */
+
+.second-navbar {
+    justify-content: space-between;
+}
+
+.second-navbar li:nth-child(2),
+.second-navbar li:nth-child(3),
+.second-navbar li:nth-child(4),
+.second-navbar li:nth-child(5) {
+    display: none;
+}
+
+/* banner-img */
+
+.banner-img {
+    max-height: 170px;
+
+}
+
+/* section 3 */
+
+.left-column h1 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.colm {
+    justify-content: center;
+    align-items: center;
+}
+
+.arfatower-students {
+    max-width: 300px;
+    max-height: 400px;
+}
+
+/* section 3  */
+
+.flx-O {
+    flex-direction: column;
+}
+
+/* card section 5 */
+
+.col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+
+
+}
+
+.card-flx {
+    flex-direction: column;
+
+}
+
+.card {
+    width: auto;
+}
+
+/* section 7 */
+
+.side-image img {
+    max-width: 300px;
+    height: auto;
+}
+
+.small-boxes {
+    width: 130px;
+    height: auto;
+}
+
+/* section 8 */
+.section8-header {
+    width: auto;
+    align-items: center;
+}
+
+.inner-box {
+    width: auto;
+}
+
+/* section 9 */
+
+.section9-box {
+    width: auto;
+}
+
+.affiliation-img {
+    max-width: 700px;
+}
+
+/* section 10 */
+.campuses-flx {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.campuses-row-flx {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campus-boxes1 div {
+     padding: 8px;
+    margin: 7.1px;
+}
+
+/* section 11 */
+.cities-box {
+   width: 100px;
+}

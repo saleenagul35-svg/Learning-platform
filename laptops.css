@@ -1,0 +1,51 @@
+html,body {
+    overflow-x: hidden;
+}
+
+/* second navbar */
+
+.second-navbar {
+    justify-content: space-between;
+}
+.second-navbar li:nth-child(2),
+.second-navbar li:nth-child(3),
+.second-navbar li:nth-child(4),
+.second-navbar li:nth-child(5){
+    display: none;
+}
+
+/* card section 5 */
+
+.col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-flx {
+    flex-direction: column;
+}
+
+/* section 7 */
+
+.side-image img {
+    max-width: 400px;
+    height: auto;
+}
+
+.small-boxes {
+    width: 200px;
+
+}
+/* section 8 */
+.section8-header {
+    width: auto;
+}
+
+.inner-box {
+    width: auto;
+}
+
+.cities-box {
+    width: 150px;
+}
