@@ -921,6 +921,7 @@ h3 {
 .logo-bimage {
     height: 80px;
     width: 100px;
+    border-radius: 50%;
 }
 
 li a {
