@@ -986,22 +986,25 @@ li a {
     object-fit: cover;
     border-radius: 4px;
 }
- .product {
-     background: linear-gradient(to right,#edf4fe,#edf4fe9e, #edf4fe);
-            /* background: linear-gradient(to right, #d1edfe, #c2efef); */
-            border-radius: 6px;
-            padding: 10px;
-            height: 100%;
 
-        }
- .submit-btn {
-    width: 70px;
+.product {
+    background: linear-gradient(to right, #edf4fe, #edf4fe9e, #edf4fe);
+    /* background: linear-gradient(to right, #d1edfe, #c2efef); */
+    border-radius: 6px;
+    padding: 10px;
+    height: 100%;
+
+}
+
+.submit-btn {
+    width: 200px;
     padding: 8px;
     border-radius: 50px;
     border: none;
     background-color: #0796d6;
     color: white;
-}      
+}
+
 .contact-Form {
     border-top: solid 7px #0794d6;
     border-bottom: solid 12px #0794d6;
@@ -1012,26 +1015,27 @@ li a {
     width: 450px;
     border-radius: 15px;
     display: flex;
+    outline: none;
 
 
     flex-direction: column;
     gap: 25px;
 }
-.contact-Form-input{
-    border: none;
-    border-bottom: 1.5px solid rgba(128, 128, 128, 0.231);
-}
+
 .contact-Form input {
     border: none;
     border-bottom: 1.5px solid rgba(128, 128, 128, 0.231);
+    outline: none;
 }
-.contact{
+
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
-.Search-btn{
+
+.Search-btn {
     width: 600px;
     border: solid 1px #0796d6;
     outline: none;
@@ -1069,15 +1073,17 @@ li a {
     align-items: center;
     text-align: center;
 }
-#modal{
+
+#modal {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    
+
 }
-.modal-content{
-    background: linear-gradient(135deg,#0794d68d, #0794d658 );
+
+.modal-content {
+    background: linear-gradient(135deg, #0794d68d, #0794d658);
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -1085,17 +1091,20 @@ li a {
     border-radius: 20px;
     width: 700px;
 }
-.modal-header{
+
+.modal-header {
     display: flex;
     justify-content: space-between;
 }
-.close{
-   
+
+.close {
+
     border: none;
     outline: none;
     background-color: transparent;
 }
-.modal-footer{
+
+.modal-footer {
     display: flex;
     justify-content: space-between;
 }

@@ -5,6 +5,8 @@ let F_btn = document.getElementById("F_btn");
 let P_btn = document.getElementById("P_btn");
 let moda1_p = document.getElementById("modal")
 let CheckOut = document.getElementById("CheckOut");
+// let billingSection = document.getElementsByClassName("billing-section");
+
 
 
 let freeCourses = document.getElementsByClassName("card-free-courses")
@@ -28,6 +30,7 @@ F_btn.style.display = "none";
 P_btn.style.display = "none";
 
 moda1_p.style.display = "none";
+// billingSection.style.display="none";
 
 
 
@@ -193,11 +196,16 @@ document.querySelectorAll(".btn-card").forEach(btn =>
 
 
     })
-    CheckOut.onclick = function() {
-        
 
-    let section = document.createElement("section");
+let btn_sub;
+let section;
+
+CheckOut.onclick = function () {
+
+
+    section = document.createElement("section");
     section.classList.add("contact");
+    section.id = "FCID"
 
     let form = document.createElement("form");
     form.classList.add("contact-Form");
@@ -232,14 +240,60 @@ document.querySelectorAll(".btn-card").forEach(btn =>
     label4.textContent = "Contact Number";
     let input4 = document.createElement("input");
     input4.classList.add("contact-Form-input");
-    input4.setAttribute("placeholder", "123-45-678")
+    input4.setAttribute("placeholder", "0300-7708470")
     input4.setAttribute("type", "tel");
     input4.setAttribute("required", "");
 
-    let btn_sub = document.createElement("button");
+    let label5 = document.createElement("label");
+    label5.textContent = "City";
+    let input5 = document.createElement("input");
+    input5.classList.add("contact-Form-input");
+    input5.setAttribute("placeholder", "City")
+    input5.setAttribute("type", "text");
+    input5.setAttribute("required", "");
+
+
+    let label6 = document.createElement("label");
+    label6.textContent = "Address";
+    let input6 = document.createElement("input");
+    input6.classList.add("contact-Form-input");
+    input6.setAttribute("placeholder", "Address")
+    input6.setAttribute("type", "text");
+    input6.setAttribute("required", "");
+
+    let h2 = document.createElement("h2");
+    h2.textContent = "Payment";
+    let p1 = document.createElement("p");
+    p1.classList.add("contact-Form-input");
+    p1.textContent = "Accepted Cards";
+
+    let span1 = document.createElement("span");
+    span1.textContent = "💳";
+    let span2 = document.createElement("span");
+    span2.textContent = "🪪";
+
+       let label7 = document.createElement("label");
+    label7.textContent = "Name on Card";
+    let input7 = document.createElement("input");
+    input7.classList.add("contact-Form-input");
+    input7.setAttribute("placeholder", "Jack")
+    input7.setAttribute("type", "text");
+    input7.setAttribute("required", "");
+
+           let label8 = document.createElement("label");
+    label8.textContent = "Credit card number";
+    let input8 = document.createElement("input");
+    input8.classList.add("contact-Form-input");
+    input8.setAttribute("placeholder", "1111-2222-3333-4444")
+    input8.setAttribute("type", "text");
+    input8.setAttribute("required", "");
+
+
+    btn_sub = document.createElement("button");
+    btn_sub.id = "ProceedToCheckOut"
     btn_sub.classList.add("submit-btn")
     btn_sub.setAttribute("type", "submit");
-    btn_sub.textContent = "Submit";
+    btn_sub.textContent = "Proceed To Checkout";
 
 
     section.appendChild(form);
@@ -251,13 +305,39 @@ document.querySelectorAll(".btn-card").forEach(btn =>
     form.appendChild(input3);
     form.appendChild(label4);
     form.appendChild(input4);
+    form.appendChild(label5);
+    form.appendChild(input5);
+    form.appendChild(label6);
+    form.appendChild(input6);
+    // if(){
+
+    // }
+    form.appendChild(h2);
+    form.appendChild(p1);
+    form.appendChild(span1);
+    form.appendChild(span2);
+    form.appendChild(label7);
+    form.appendChild(input7);
+    form.appendChild(label8);
+    form.appendChild(input8);
     form.appendChild(btn_sub);
     document.body.appendChild(section);
 
     moda1_p.style.display = "none";
- 
+    form.addEventListener("submit",function(event){
+        event.preventDefault();
+    })
 
 
+
+}
+btn_sub.onclick=function(){
+   let heading = document.createElement("h1");
+   heading.textContent="Congratulation! You got addmission."
+   heading.classList.add("contact-Form");
+   section.style.display="none";
+
+    
 }
 
 
