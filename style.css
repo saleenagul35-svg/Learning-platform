@@ -1028,3 +1028,70 @@ li a {
     align-items: center;
     padding: 20px;
 }
+.Search-btn{
+    width: 600px;
+    border: solid 1px #0796d6;
+    outline: none;
+    background-color: white;
+    padding: 10px;
+    color: #0796d6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+    border-radius: 50px;
+}
+
+.card-free-courses {
+    height: auto;
+    border: solid 1px rgba(128, 128, 128, 0.281);
+    border-radius: 20px;
+    width: 380px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-paid-courses {
+    height: auto;
+    border: solid 1px rgba(128, 128, 128, 0.281);
+    border-radius: 20px;
+    width: 380px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+.modal-content{
+    background: linear-gradient(135deg,#0794d68d, #0794d658 );
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    width: 800px;
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+}
+.close{
+   
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+}
